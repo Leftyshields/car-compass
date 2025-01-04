@@ -1,0 +1,26 @@
+{
+  "name": "car-compass",
+  "version": "1.0.0",
+  "description": "A vehicle price-tracking tool that analyzes trends by location over time.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "2captcha": "^3.0.5-2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "",
+  "license": "MIT"
+}
