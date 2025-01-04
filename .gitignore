@@ -131,3 +131,7 @@ dist
 
 # Ignore Puppeteer Chromium binaries
 backend/node_modules/puppeteer/.local-chromium/
+
+# Sensitive files
+*.key
+*.pem
