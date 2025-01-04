@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore Puppeteer Chromium binaries
+backend/node_modules/puppeteer/.local-chromium/
