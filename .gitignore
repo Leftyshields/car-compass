@@ -136,3 +136,6 @@ backend/node_modules/puppeteer/.local-chromium/
 *.key
 *.pem
 .env
+
+# Ignore BFG Repo-Cleaner jar file
+bfg.jar
